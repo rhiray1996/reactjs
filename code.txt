@@ -1,0 +1,15 @@
+<p>User object = > Name: {this.props.user.name}</p>
+                <div>
+                    <h4>Hobbies</h4>
+                    <ul>
+                        {this.props.user.hobbies.map((hobby, i) => <li key={i}>{hobby}</li>)}
+                    </ul>
+                </div> 
+                <hr/>
+                {this.props.children}
+
+
+this.onMakeOlder.bind(this) or () => this.onMakeOlder()
+
+
+	children : PropTypes.element.isRequired,
